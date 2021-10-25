@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -12,15 +14,15 @@ h1 {
 
 .contain {
     background: #272727;
-    width: 200px;
-    height: 245px;
+    width: 300px;
+    height: 395px;
     margin: 0 auto;
-    padding: .5rem;
+    padding: .7rem;
 }
 
 .display {
     background: #101010;
-    padding: .5rem;
+    padding: 1rem;
     width: 100%;
     margin: 0 auto;
     text-align: end;
@@ -28,7 +30,7 @@ h1 {
 }
 
 .operation-display {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 
 .btns-contain {
@@ -44,11 +46,17 @@ h1 {
 }
 
 .btns {
-    padding: .3rem;
+    padding: .7rem;
     cursor: pointer;
-    background: maroon;
+    background: #181818;
     border-color: transparent;
     border-radius: 4px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.1rem;
+}
+
+.btns:hover {
+    background: #101010;
 }
 
 .clear {
@@ -59,6 +67,28 @@ h1 {
     grid-column: span 2;
 }
 
+.signs {
+    background: #101010;
+}
+
+.signs:hover {
+    background: #181818;
+}
+
+.equal {
+    background: green;
+}
+
+.equal:hover {
+    background: darkgreen;
+}
+
 .grid {
-    padding: .6rem;
+    padding: 1.2rem;
+    font-size: 1.3rem;
+    background: lightcoral
+}
+
+.grid:hover {
+    background: rgb(232, 77, 77)
 }
