@@ -6,3 +6,5 @@ Made a another version of the calculator with a better understanding of javascri
 * CSS
 * JS
 * Lint
+
+Live preview: odincalculator.netlify.app
